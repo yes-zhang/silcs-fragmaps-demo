@@ -10,6 +10,7 @@ export default function Home() {
         structure of P38 and related ligands analysed in the SILCS study.
       </p>
 
+      <h2>SILCS FragMaps</h2>
       <p>
         SILCS FragMaps are three-dimensional maps that capture favorable interaction regions
         for different physicochemical fragment types (e.g. hydrophobic, H-bond donors/acceptors).
