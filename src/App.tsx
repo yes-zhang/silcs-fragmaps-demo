@@ -8,14 +8,14 @@ export default function App() {
 
   return (
     <div style={{ height: '100vh', display: 'flex', flexDirection: 'column' }}>
-      <header style={{ display: 'flex', gap: 8, padding: 8, background: '#111', alignItems: 'center' }}>
+      <header style={{ display: 'flex', gap: 8, padding: 8, background: '#4bcd47', alignItems: 'center' }}>
         <button
           onClick={() => setPage('home')}
           aria-current={page === 'home' ? 'page' : undefined}
           style={{
             padding: '8px 12px',
             background: page === 'home' ? '#646cff' : 'transparent',
-            color: page === 'home' ? '#fff' : undefined,
+            color: page === 'home' ? '#ffffff' : undefined,
             border: page === 'home' ? 'none' : undefined,
             borderRadius: 6,
             fontWeight: page === 'home' ? 600 : 400,
@@ -30,7 +30,7 @@ export default function App() {
           style={{
             padding: '8px 12px',
             background: page === 'viewer' ? '#646cff' : 'transparent',
-            color: page === 'viewer' ? '#fff' : undefined,
+            color: page === 'viewer' ? '#ffffff' : undefined,
             border: page === 'viewer' ? 'none' : undefined,
             borderRadius: 6,
             fontWeight: page === 'viewer' ? 600 : 400,
