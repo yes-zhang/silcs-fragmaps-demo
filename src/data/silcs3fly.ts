@@ -12,7 +12,7 @@ export type LigandOption = { id: string; name: string; sdfUrl: string };
 export type FragMapOption = { key: FragMapKey; label: string; url: string; defaultIso: number };
 
 export const SILCS_3FLY = {
-  proteinPdbUrl: '/from_silcsbio/3fly.pdb',
+  proteinPdbUrl: '/public/from_silcsbio/3fly.pdb',
 
   // Use the SILCS-provided “posref” versions (aligned poses)
   ligands: [
